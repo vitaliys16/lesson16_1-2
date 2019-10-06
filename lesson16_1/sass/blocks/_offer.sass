@@ -32,18 +32,17 @@
         width: 240px
         &:first-child
             margin-right: 10px
-        &:active
-            border: 1px solid $secondary
         &:focus
             outline: none
-            border: 1px solid $main-color
-
-            
+            border: 1px solid $main-color        
     &__button
         font-size: 16.7px
         width: 100%
         min-height: 70px
         margin-bottom: 29px
+        &:hover
+            background-color: lighten($main-color, 10%)
+            cursor: pointer
     &-contacts
         display: flex
         justify-content: space-between

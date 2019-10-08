@@ -34,7 +34,7 @@ img {
   margin: auto;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .container {
     max-width: 760px;
   }
@@ -148,7 +148,7 @@ img {
   font-weight: 700;
 }
 
-@media (max-width: 1200px) and (min-width: 992px) {
+@media (max-width: 1200px) and (min-width: 991px) {
   .navbar {
     padding: 8px 10px;
   }
@@ -261,13 +261,13 @@ img {
   line-height: 1.7em;
 }
 
-@media (max-width: 1200px) and (min-width: 992px) {
+@media (max-width: 1200px) and (min-width: 991px) {
   .hero {
     padding: 50px 10px;
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .hero-image {
     width: 100%;
   }
@@ -423,14 +423,14 @@ img {
   text-decoration: none;
 }
 
-@media (max-width: 1200px) and (min-width: 992px) {
+@media (max-width: 1200px) and (min-width: 991px) {
   .offer {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .offer {
     background-size: cover;
   }

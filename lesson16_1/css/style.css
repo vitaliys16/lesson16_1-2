@@ -330,7 +330,7 @@ img {
 
 .offer {
   background: url("../img/offer/offer-bg.jpg") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center right;
   position: relative;
 }
@@ -461,7 +461,7 @@ img {
     margin-bottom: 25px;
   }
   .offer-block {
-    width: 100%;
+    width: 97%;
     padding-right: 0;
     padding-left: 0;
   }
@@ -483,7 +483,7 @@ img {
     margin-top: 7px;
   }
   .offer__form {
-    max-width: 275px;
+    max-width: auto;
   }
   .offer__input {
     padding: 23px 19px;

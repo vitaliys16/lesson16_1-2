@@ -51,17 +51,24 @@
         &__description
             width: 228px
     &-phone
+        margin-right: 13px
         &__text
             display: block
         &__numb
             +bold
             color: #333333
             text-decoration: none
-
-
-
-@media (max-width: 1200px)
+@media (max-width: 1200px) and (min-width: 992px)
     .offer
+        padding-left: 10px
+        padding-right: 10px
+
+
+@media (max-width: 992px)
+    .offer
+        &-block
+            width: 57%
+            padding-left: 10px
         background-size: cover
         &__input
             width: 100%
@@ -77,16 +84,22 @@
             width: 95%
         &__subtitle
             font-size: 14px
-            margin-bottom: 23px
+            margin-bottom: 25px
         &-block
             width: 100%
             padding-right: 0 
+            padding-left: 0 
         &__button
             font-size: 14.6px
-            padding: 0px 64px 3px 60px
+            padding: 0px 54px 5px 60px
             margin-bottom: 22px
         &-contacts
             flex-wrap: wrap
             margin-left: 7px
+            flex-direction: column
         &-phone
             margin-top: 7px
+        &__form
+            max-width: 275px
+        &__input
+            padding: 23px 19px

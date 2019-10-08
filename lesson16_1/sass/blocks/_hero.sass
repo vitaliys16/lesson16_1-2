@@ -20,7 +20,8 @@
             margin-left: 4px
             +bold
     &-image
-        width: 49%
+        width: 50%
+        padding-left: 10px
 
     &-list
         margin: 0
@@ -47,10 +48,16 @@
             max-width: 245px
             font-size: 14px
             line-height: 1.7em
-@media (max-width: 1200px)
+@media (max-width: 1200px) and (min-width: 992px)
     .hero
+        padding: 50px 10px
+@media (max-width: 992px)
+    .hero
+        &-image
+            width: 100%
         &-block
             flex-direction: column
+            padding-left: 10px
         &-list
             margin-bottom: 37px
             margin-top: 0
@@ -58,8 +65,11 @@
             padding-right: 5px
 @media (max-width: 768px)
     .hero
+        &-block
+            padding-left: 0
         &-image
-            width: 94%
+            width: 97%
+            padding-left: 0
         &-text
             &__title
                 font-size: 24px
@@ -69,15 +79,17 @@
                 width: 101%
             &__subtitle
                 font-size: 16px
-                margin-bottom: 25px
+                margin-bottom: 29px
                 line-height: 1.3
                 margin-top: 2px
         &-list
             font-size: 12px
+            margin-left: 2px
+            margin-bottom: 39px
             &__image
-                    margin-right: 13px
+                margin-right: 15px
             &__item
-                margin-bottom: 20px
+                margin-bottom: 23px
             &__text
                 font-size: 12px
                 line-height: 1.4em
